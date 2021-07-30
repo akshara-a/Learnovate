@@ -1,5 +1,5 @@
-/* --------- Destop mode above 1050px -------- */
-@media only screen and (min-width:1100px) {
+/* --------- Destop mode above 1200px -------- */
+@media only screen and (min-width:1201px) {
     body{
         margin: 120px 200px;
     }
@@ -38,8 +38,8 @@
     }
 }
 
-/* --------- Destop mode below 1050px -------- */
-@media only screen and (max-width:1050px) {
+/* --------- Destop mode 1200px & below -------- */
+@media only screen and (max-width:1200px) {
     body{
         margin: 120px 80px;
     }
@@ -63,8 +63,8 @@
         background-color: #7cdbdb;
         text-align: justify;
         padding: 20px;
-        margin: 30px 20px;
-        width: 58%;
+        margin: 30px 10px;
+        width: 62%;
     }
     #subsection21{
         margin: 30px; 
@@ -78,7 +78,7 @@
     }
 }
 
-/* --------- Laptop mode -------- */
+/* --------- Tablet mode -------- */
 @media only screen and (max-width:800px) {
     body{
         margin: 40px 30px;
@@ -118,7 +118,7 @@
     }
 }
 
-/* --------- Mpbile mode -------- */
+/* --------- Mobile mode -------- */
 @media only screen and (max-width:600px) {
     html{
         width: 500px;
