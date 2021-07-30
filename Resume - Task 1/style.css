@@ -1,7 +1,7 @@
 /* --------- Destop mode above 1200px -------- */
 @media only screen and (min-width:1201px) {
     body{
-        margin: 120px 200px;
+        margin: 120px 180px;
     }
     /* User Pic */
     img{
@@ -24,7 +24,7 @@
         text-align: justify;
         padding: 20px;
         margin: 60px 30px;
-        width: 65%;
+        width: 60%;
     }
     #subsection21{
         margin: 30px; 
