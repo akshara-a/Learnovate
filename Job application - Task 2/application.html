@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application</title>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 style="text-align: center; margin-bottom: 30px;"> Apply Now </h1>
+    <form method="post">
+        <label for="name">Name</label><br>
+        <input type="text" id="fname" class="sectionOne" name="fname" placeholder="First name" required>
+        <input type="text" id="lname" class="sectionOne" name="lname" placeholder="Last name" required><br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" class="sectionTwo" name="email" placeholder="Enter your Email" required><br>
+        <label for="number">Phone number</label><br>
+        <input type="number" id="number" class="sectionTwo" name="number" placeholder="Enter your number" required><br>
+        <label for="role">Job role</label><br>
+        <select name="role" id="role" class="sectionThree" required>
+            <option value="Software Developer"> Software Developer </option>
+            <option value="Associate System Engineer"> Associate System Engineer</option>
+            <option value="Junior Developer"> Junior Developer </option>
+        </select> <br>
+        <label for="resume">Upload your resume</label><br>
+        <input type="file" id="resume" name="resume" required> <br/><br/>
+        <div class="applicationDiv"><button id="applicationButton"> Submit Application </button></div>
+    </form>
+</body>
+</html>
