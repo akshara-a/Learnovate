@@ -275,17 +275,17 @@ input[type="file"]{
         color: #fff;
     }
     .sectionOne{
-        padding: 10px 25%;
+        padding: 10px 100px;
         margin: 10px 5px 30px 0px;
         border-radius: 5px;
     }
     .sectionTwo{
-        padding: 10px 25%;
+        padding: 10px 100px;
         margin: 10px 0px 30px 0px;
         border-radius: 5px;
     }
     .sectionThree{
-        padding: 10px 25%;
+        padding: 10px 100px;
         margin: 10px 0px 30px 0px;
         border-radius: 5px;
     }
