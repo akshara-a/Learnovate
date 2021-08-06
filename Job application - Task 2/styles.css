@@ -300,7 +300,7 @@ input[type="file"]{
         border-radius: 25px;
     }
     ::-webkit-file-upload-button{
-        padding: 20px 70px;
+        padding: 20px 25%;
     }
     .applicationDiv{
         margin: 0 auto;
