@@ -78,7 +78,7 @@ input[type="text"]{
     }
 }
 /* --------- Tablet mode -------- */
-@media only screen and (min-width:800px) {
+@media only screen and (max-width:800px) {
     body{
         margin: 100px 50px;
     }
