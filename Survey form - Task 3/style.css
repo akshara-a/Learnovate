@@ -59,8 +59,8 @@ input[type="text"]{
     border-radius: 25px;
     margin: 0px;
 }
-/* --------- Desktop mode 1199 & below-------- */
-@media only screen and (max-width:1199px) {
+/* --------- Desktop mode 1250 & below-------- */
+@media only screen and (max-width:1250px) {
     body{
         margin: 100px 50px;
     }
