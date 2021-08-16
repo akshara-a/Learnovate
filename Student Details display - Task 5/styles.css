@@ -1,0 +1,48 @@
+.ButtonStyle{
+    margin: 0 auto;
+    width: 120px;
+}
+.DivStyle{
+    margin: 30px auto;
+}
+@media (min-width:320px){
+    img{
+        width: 250px;
+    }
+    body{
+        margin: 30px 20px;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+}
+@media (min-width:641px){
+    img{
+        width: 180px;
+    }
+    body{
+        margin: 50px 30px;
+    }
+    .d-flex{
+        flex-direction: row;
+    }
+    #tableStyle{
+        width: 600px;
+        margin: 50px auto;
+    }
+}
+@media (min-width:961px){
+    img{
+        width: 250px;
+    }
+    body{
+        margin: 70px 150px;
+    }
+    .d-flex{
+        flex-direction: row;
+    }
+    #tableStyle{
+        width: 600px;
+        margin: 70px auto;
+    }
+}
